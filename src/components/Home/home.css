@@ -1,0 +1,41 @@
+.home h1{
+text-align: center;
+margin: 20px;
+background-color: aliceblue;
+}
+.home-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.categories{
+     margin: 50px;
+     display: flex;
+     flex-direction: column;
+     gap: 50px;
+}
+
+.btn{
+color: black;
+}
+
+.active .btn{
+     padding: 5px;
+     border: 1px solid rgb(164, 164, 166);
+}
+
+.products-sec{
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     
+}
+
+.products{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     gap: 30px;
+     width: 50%;
+}
